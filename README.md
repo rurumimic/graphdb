@@ -2,7 +2,11 @@
 
 ## Documentation
 
+- Neo4j: [developer](https://neo4j.com/developer/)
+  - [Get started](https://neo4j.com/developer/get-started)
+  - [GraphAcademy](https://neo4j.com/graphacademy)
 - [Cypher](https://neo4j.com/docs/cypher-manual/current/)
+  - [Refcard](https://neo4j.com/docs/cypher-refcard/current/)
 
 ## Tutorials
 
