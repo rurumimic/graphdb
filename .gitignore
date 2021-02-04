@@ -1,5 +1,17 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,code
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,code
+# Do not commit your key
+
+*.crt
+*.pem
+*.der
+*.key
+*.cer
+*.pfx
+*.p12
+*.csr
+*.jks
+
+# Created by https://www.toptal.com/developers/gitignore/api/code,macos,windows,vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=code,macos,windows,vagrant
 
 ### Code ###
 .vscode/*
@@ -36,6 +48,16 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -62,4 +84,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,code
+# End of https://www.toptal.com/developers/gitignore/api/code,macos,windows,vagrant

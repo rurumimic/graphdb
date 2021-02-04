@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Neo4j 4+ & Ubuntu 16+: OpenJDK 11, OracleJDK 11, and ZuluJDK 11
+  config.vm.box = "ubuntu/focal64"
+
+  # Neo4j Ports: https://neo4j.com/docs/operations-manual/current/configuration/ports
+  # http: 7474
+  # bolt: 7687
+  config.vm.network "forwarded_port", guest: 7474, host: 7474, host_ip: "127.0.0.1"
+  config.vm.network "forwarded_port", guest: 7687, host: 7687, host_ip: "127.0.0.1"
+
+  config.vm.network "private_network", ip: "192.168.50.10"
+
+  config.vm.synced_folder "./share", "/share"
+
+  # Neo4j requirements: https://neo4j.com/docs/operations-manual/current/installation/requirements
+  config.vm.provider "virtualbox" do |vb|
+    vb.cpus = "2"
+    vb.memory = "4096"
+  end
+end
