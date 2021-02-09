@@ -14,3 +14,4 @@ neo4j: [sandbox](https://sandbox.neo4j.com)
 
 - [Movies](tutorials/movies/README.md)
 - [Crime Investigation](tutorials/crime-investigation/README.md)
+- [Recommendations](tutorials/recommendations/README.md)
