@@ -140,9 +140,23 @@ FROM (
 - [Cypher](https://neo4j.com/docs/cypher-manual/current/)
   - [Refcard](https://neo4j.com/docs/cypher-refcard/current/)
 
+#### Examples
+
+- [How Graph Technology Is Changing Artificial Intelligence and Machine Learning](https://youtu.be/vZi-Ca9QBME)
+
 ### Amazon Neptune
 
 - [Amazon Neptune](https://aws.amazon.com/neptune)
+- AWS re:Invent 2019: [Deep dive on Amazon Neptune (DAT361)](https://youtu.be/dSqNAlYAAoQ)
+- Blog: [Analyze Amazon Neptune Graphs using Amazon SageMaker Jupyter Notebooks](https://aws.amazon.com/blogs/database/analyze-amazon-neptune-graphs-using-amazon-sagemaker-jupyter-notebooks/)
+- aws-samples/[aws-dbs-refarch-graph](https://github.com/aws-samples/aws-dbs-refarch-graph)
+- aws-samples/[amazon-neptune-samples](https://github.com/aws-samples/amazon-neptune-samples)
+
+![](docs/neptune/images/architecture.png)
+
+#### Examples
+
+- [Nike: A Social Graph at Scale with Amazon Neptune](https://youtu.be/ZCj2wuKBBu4)
 
 ---
 
